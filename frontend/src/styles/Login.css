@@ -1,0 +1,16 @@
+body {
+    background-color: #508bfc;
+}
+
+.login-dataformpass {
+    position: relative;
+}
+
+.login-dataformshowpass {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    /* Điều chỉnh khoảng cách từ nút đến biên phải của container */
+    cursor: pointer;
+}

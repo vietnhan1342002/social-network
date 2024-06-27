@@ -1,0 +1,52 @@
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+
+.gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+
+.register-dataformpass {
+    position: relative;
+}
+
+.register-dataformshowpass {
+    position: absolute;
+    top: 37.5%;
+    transform: translateY(-50%);
+    right: 12%;
+    /* Điều chỉnh khoảng cách từ nút đến biên phải của container */
+    cursor: pointer;
+}
+
+.register-dataformshowConfirmpass {
+    position: absolute;
+    top: 47%;
+    transform: translateY(-50%);
+    right: 12%;
+    /* Điều chỉnh khoảng cách từ nút đến biên phải của container */
+    cursor: pointer;
+}
+
+.register-dataformselect {
+    padding: .3rem;
+    border-radius: 5px;
+    border: 2px solid var(--border-color);
+    width: 50%;
+    height: 2.3rem;
+    outline: none;
+}
